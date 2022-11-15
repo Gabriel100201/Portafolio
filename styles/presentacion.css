@@ -24,7 +24,6 @@
     border-radius: 100%;
     border: 2px solid var(--gris);
     object-fit: cover;
-    object-position: 20 0;
 }
 .presentacion__texto{
     color: var(--gris);
