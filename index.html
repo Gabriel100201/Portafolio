@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/header.css" rel="stylesheet">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/sobre-mi.css" rel="stylesheet">
+    <link href="styles/presentacion.css" rel="stylesheet">
+    <link href="styles/skills.css" rel="stylesheet">
+    <link href="styles/proyectos.css" rel="stylesheet">
+    <link href="styles/contacto.css" rel="stylesheet">
+    <link href="styles/footer.css" rel="stylesheet">
+    <link href="styles/formacion.css" rel="stylesheet">
+    <link href="styles/mediadesktop.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/07c964647a.js" crossorigin="anonymous"></script>
+    <title>Portafolio De Gabriel</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container">
+            <i class="fa-solid fa-laptop-code header__ico"></i>
+            <h2 class="header__nombre">Gabriel Funes</h2>
+        </div>
+        <a class="header__mail" href="#sobreMi">Sobre Mi</a>
+        <a class="header__mail" href="#skills">Skills</a>
+        <a class="header__mail" href="#proyectos">Proyectos</a>
+        <a class="header__mail" href="#contacto">Contacto</a>
+    </header>
+
+    <section class="presentacion">
+        <div class="presentacion__avatar">
+            <div class="presentacion__filtro"></div>
+            <img class="presentacion__imagen" src="assets/fotoperfil.jpg">
+        </div>
+        <h2 class="presentacion__texto">Hola mi nombre es Gabriel y realizo páginas web</h2>
+        <h4 class="presentacion__subtexto">Tengo 21 años, soy estudiante de desarrollo web en "Oracle ONE, Next-Education" y me encuentro cursando la carrera de Desarrollo de software en la Universida Catolica de Cuyo en San Juan, Argentina.</h4>
+        <div class="presentacion__link-container">
+            <a class="presentacion__link" target="_blank" href="https://github.com/Gabriel100201">GitHub<i class="fa-solid fa-arrow-right presentacion__ico"></i></a>
+            <a class="presentacion__link" target="_blank" href="https://www.linkedin.com/in/gabriel-funes-ab8a0a24a/">Linkedin<i class="fa-solid fa-arrow-right presentacion__ico"></i></a>
+            <a class="presentacion__link" target="_blank" href="https://www.instagram.com/gabifunes_/">Instagram<i class="fa-solid fa-arrow-right presentacion__ico"></i></a>
+            <a class="presentacion__link" target="_blank" href="#">Curriculo<i class="fa-solid fa-arrow-right presentacion__ico"></i></a>
+        </div>
+    </section>
+
+    <section class="sobreMi" id="sobreMi">
+        <h2 class="sobreMi__titulo">Sobre Mi</h2>
+        <p class="sobreMi__parrafo">Naci en 2001 en la provincia de San Juan, Argentina, actualmente tengo 21 años. Poseo gran capacidad de apredizaje online y eso me ha llevado a obtener los conocimientos necesarios para realizar lo que deseo, ademas tengo desarrolladas las habilidades de analisis de problemas, trabajo en equipo y planificación. Actualmente me encuentro en busqueda de experiencias laborales que me ayuden a relacionarme de manera cercana con el ambito de la programación </p>
+        <div class="sobreMi__container">
+            <img class="sobreMi__imagen" src="SVG/FirmaBlanca.svg" alt="">
+            <img class="sobreMi__imagen-desktop" src="SVG/FirmaNegra.svg" alt="">
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="skills__titulo">Skills</h2>
+        <div class="skills__container">
+            <div class="skills__html">
+                <i class="fa-brands fa-html5 skills__ico"></i>
+                <h4 class="skills__skill">HTML</h4>
+            </div>
+            <div class="skills__css">
+                <i class="fa-brands fa-css3-alt skills__ico"></i>
+                <h4 class="skills__skill">CSS</h4>
+            </div>
+            <div class="skills__js">
+                <i class="fa-brands fa-js skills__ico"></i>
+                <h4 class="skills__skill">JavaScript</h4>
+            </div>
+            <div class="skills__nodejs">
+                <i class="fa-brands fa-node skills__ico"></i>
+                <h4 class="skills__skill">Nodejs</h4>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="skills__titulo">Hobbies</h2>
+        <div class="skills__container">
+            <div class="skills__html">
+                <i class="fa-solid fa-person-swimming skills__ico"></i>
+                <h4 class="skills__skill">Natación</h4>
+            </div>
+            <div class="skills__css">
+                <i class="fa-solid fa-music skills__ico"></i>
+                <h4 class="skills__skill"> Oír Música</h4>
+            </div>
+            <div class="skills__js">
+                <i class="fa-solid fa-gamepad skills__ico"></i>
+                <h4 class="skills__skill">VideoJuegos</h4>
+            </div>
+            <div class="skills__nodejs">
+                <i class="fa-solid fa-futbol skills__ico"></i>
+                <h4 class="skills__skill">Fútbol</h4>
+            </div>
+        </div>
+    </section>
+    
+    <section class="proyectos" id="proyectos">
+        <div class="proyectos__titulo"><h2>Proyectos</h2></div>
+        <div class="proyectos__proyecto">
+            <div class="proyectos__container">
+                <img class="proyecto__img" src="assets/screenAhorcado.png" alt="">
+                <h4 class="proyectos__resumen">Juego del Ahorcado desarrollado para el programa "Oracle ONE, Next Educatiion" en el cual se hizo uso de HTML, CSS y JavaScript. El juego del ahorcado, o juego de la horca consiste en que el usuario debe intentar adivinar la palabra asignada por el juego de manera aleatoria, en este caso en particular se busca que el jugador adivine entre más de 50 animales posibles.</h4>
+            </div>
+            <h2 class="proyecto__titulo">Juego del Ahorcado</h2>
+            <h4 class="proyecto__subtitulo">Oracle ONE, Next-Education</h4>
+            <div class="proyectos__botones">
+                <a class="proyecto__boton1" target="__blank" href="https://github.com/Gabriel100201/ONE-Ahorcado">Repositorio</a>
+                <a class="proyecto__boton2" target="__blank" href="https://gabriel100201.github.io/ONE-Ahorcado/">Demo</a>
+            </div>
+        </div>
+        <div class="proyectos__proyecto">
+        <div class="proyectos__container">
+            <img class="proyecto__img" src="assets/screenEncriptador.png" alt="">
+                <h4 class="proyectos__resumen">Aplicación para Encriptar texto desarrollada para "Oracle ONE, Next Education" en la cual se le permite al usuario ingresar un texto que luego sera encriptado por el programa siguiendo ciertos parametros, además el usuario tendrá la posibilidad de desencriptar un texto encriptado previamente bajo los mismos parametros.</h4>
+            </div>
+            <h2 class="proyecto__titulo">Encriptador de texto</h2>
+            <h4 class="proyecto__subtitulo">Oracle ONE, Next-Education</h4>
+            <div class="proyectos__botones">
+                <a class="proyecto__boton1" target="__blank" href="https://github.com/Gabriel100201/Encriptador-Responsive">Repositorio</a>
+                <a class="proyecto__boton2" target="__blank" href="https://gabriel100201.github.io/Encriptador-Responsive/">Demo</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="formacion" id="formacion">
+        <h2 class="formacion__titulo">Fromacion</h2>
+        <div class="formaciones__container">
+            <div class="formacion__formacion">
+                <div class="formacion__img-container">
+                    <img class="formacion__imagen" src="assets/image 8.svg" alt="">
+                </div>
+                <h2 class="formacion__titulos">2022 - Alura</h2>
+                <h4 class="formacion__subtitulo">Desarrollador web Front-End</h4>
+            </div>
+            <div class="formacion__formacion">
+                <div class="formacion__img-container"">
+                    <img class="formacion__imagen universidad" src="assets/ucdc.png" alt="">
+                </div>
+                <h2 class="formacion__titulos">2022 - Universidad Católica de Cuyo</h2>
+                <h4 class="formacion__subtitulo">Desarrollador de software</h4>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacto" id="contacto">
+        <h2 class="contacto__titulo">¿Quieres contactarme?</h2>
+            <p class="contacto__descripcion">¿Quieres contactarme?
+                Complete el siguiente formulario  y me pondré en contacto con usted lo antes posible.</p>
+        <form class="contacto__input-conainer">
+            <div class="input__container">
+                <input type="text" class="contacto__textarea nombre" placeholder="Nombre" required data-tipo="nombre" ></input>
+                <span class="input-message-error"></span>
+            </div>
+            <div class="input__container">
+                <input type="email" class="contacto__textarea mail" placeholder="E-mail" required data-tipo="email" ></input>
+                <span class="input-message-error"></span>
+            </div>
+            <div class="input__container">
+                <input type="text" class="contacto__textarea asunto" placeholder="Asunto" required data-tipo="asunto" ></input>
+                <span class="input-message-error"></span>
+            </div>
+            <div class="input__container">
+                <input type="text" class="contacto__textarea mensaje" placeholder="Mensaje" required data-tipo="mensaje" ></input>
+                <span class="input-message-error"></span>
+            </div>
+            <input type="submit" class="contacto__boton"></input>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <a class="footer__link" href="#"><i class="fa-brands fa-github footer__ico"></i></a>
+        <a class="footer__link" href="#"><i class="fa-brands fa-linkedin footer__ico"></i></a> 
+        <h2 class="footer__desarrollo">Desarrollado por Gabriel Funes</h2>
+    </footer>
+    <script src="app.js" type="module"></script>
+</body>
+</html>

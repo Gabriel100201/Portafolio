@@ -1,0 +1,31 @@
+.header{
+    width: 100vw;
+    height: 50px;
+    background-color: var(--gris);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    -webkit-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.4);
+	box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.4);
+}
+.header__container{
+    display: flex;
+    align-items: center;
+}
+.header__nombre{
+    font-size: 1rem;
+    color: var(--wine);
+    font-weight: bold;
+}
+.header__ico{
+    font-size: .75rem;
+    color: var(--wine);
+    margin-right: 5px;
+}
+.header__mail{
+    font-size: .8rem;
+    color: var(--wine);
+    font-weight: 500;
+    text-decoration: none;
+}

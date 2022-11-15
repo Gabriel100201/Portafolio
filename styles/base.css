@@ -1,0 +1,15 @@
+body{
+    background-color: var(--wine);
+    font-family: 'Raleway', sans-serif;
+}
+:root{
+    --darkwine: #4c1a2b;
+    --wine:  #400b1d;
+    --gris: #f3f3f3;
+}
+a:hover{
+    scale: 1.120;
+}
+a{
+    transition: all .3s;
+}

@@ -1,0 +1,44 @@
+.formacion{
+    width: 100vw;
+    background-color: var(--wine);
+    border-bottom: 2px solid #f3f3f3;
+    padding-bottom: 30px;
+}
+.formacion__formacion{
+    margin-top: 20px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.formacion__img-container{
+    width: 50%;
+    height: 150px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7px;
+    margin-top: 7px;
+    border-radius: 10px;
+}
+.universidad{
+    width: 70px;
+}
+.formacion__titulo{
+    padding: 30px 0 20px 0;
+    font-size: 1.7rem;
+    color: #f3f3f3;
+    text-align: center;
+}
+.formacion__titulos{
+    color: #f3f3f3;
+    font-size: 1rem;
+    margin-bottom: 7px;
+}
+.formacion__subtitulo{
+    color: #f3f3f3;
+    font-size: .7rem;
+    font-weight: 100;
+}

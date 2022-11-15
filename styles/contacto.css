@@ -1,0 +1,93 @@
+.contacto{
+    color: var(--gris);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contacto__input-conainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.contacto__titulo{
+    align-self: flex-start;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.contacto__descripcion{
+    align-self: flex-start;
+    font-size: .7rem;
+    margin-bottom: 20px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.contacto__textarea{
+    width: 90%;
+    margin-top: 20px;
+    padding: 15px;
+    font-size: .8rem;
+    background-color: #111;
+    border: none;
+    border-bottom: 3px solid #000;
+    resize: none;    
+    color: white;
+}
+.contacto__textarea:focus{
+    border: none;
+}
+.nombre{
+    height: 50px;
+}
+.mail{
+    height: 50px;
+}
+.asunto{
+    height: 50px;
+}
+.mensaje{
+    height: 250px;
+}
+.contacto__boton{
+    margin-top: 20px;
+    background-color: #f3f3f3;
+    color: #111;
+    border: 1px solid #111;
+    padding: 7px;
+    font-size: .8rem;
+    font-weight: 500;
+    border-radius: 2px;
+    transition: all .3s;
+}
+.contacto__boton:hover{
+    scale: 1.120;
+}
+.input-message-error{
+    font-size: .7rem;
+}
+.input__container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input-rojo{
+    border: 1px solid red;
+}
+.input-message-error{
+    text-align: center;
+    margin-top: 5px;   
+}
+@media (min-width: 500px) {
+    .contacto{
+        padding: 4rem;
+    }
+    .contacto__boton{
+        padding: 10px;
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,28 @@
+.sobreMi{
+    background-color: var(--darkwine);
+    color:  var(--gris);
+    padding: 2rem;
+    border-bottom: 3px double var(--gris);
+}
+.sobreMi__titulo{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.sobreMi__parrafo{
+    font-size: .7rem;
+    margin-bottom: 20px;
+}
+.sobreMi__container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.sobreMi__imagen{
+    padding: .2rem;
+    width: 100px;
+    height: 100px;
+    left: 50%;
+}
+.sobreMi__imagen-desktop{
+    display: none;
+}

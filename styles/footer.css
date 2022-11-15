@@ -1,0 +1,23 @@
+.footer{
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f3f3f3;
+    font-size: .6rem;
+    padding: 2rem;
+    font-weight: 400;
+    margin-top: 20px;
+    border-top: 3px solid #000;
+    font-weight: 300;
+}
+.footer__ico{
+    color: #f3f3f3;
+    font-size: 1.3rem;
+}
+.footer__link{
+    margin: 0 10px 0 10px;
+}
+.footer__link:nth-child(2){
+    margin-right: 20px;
+}
