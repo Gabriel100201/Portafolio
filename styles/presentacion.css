@@ -14,7 +14,7 @@
     width: 150px;
     height: 150px;
     border-radius: 100%;
-    background-color: var(--gris);
+    background-color: var(--darkwine);
     opacity: .1;
     position: absolute;
 }
@@ -24,7 +24,7 @@
     border-radius: 100%;
     border: 2px solid var(--gris);
     object-fit: cover;
-    object-position: 0 0;
+    object-position: 20 0;
 }
 .presentacion__texto{
     color: var(--gris);
